@@ -1,23 +1,19 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background: #111;
+  color: #fff;
   text-align: center;
-  background: #202020;
-  color: white;
 }
 
-#gameCanvas {
+canvas {
+  background: #5ea743;
   border: 3px solid #fff;
   margin-top: 10px;
-  background: #7ec850;
   cursor: crosshair;
 }
 
-#inventory {
-  margin-top: 10px;
-}
-
-button {
+#inventory button, #mode-select button {
   margin: 5px;
   padding: 8px 16px;
   font-size: 16px;
